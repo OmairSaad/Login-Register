@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img"></div>
+      <div class="form">
+          <p id="dup"></p>
+        <form action="">
+          <h2>Registraion Form</h2>
+          <div class="div">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+            <p id="nr" class="r"></p>
+          </div>
+
+          <div class="div">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+            <p id="er" class="r"></p>
+          </div>
+
+          <div class="div">
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="Enter password" />
+            <p id="pr" class="r"></p>
+          </div>
+
+          <div class="div">
+            <label for="conf">Confirm Password</label>
+            <input
+              type="password"
+              id="conf"
+              placeholder="Enter confirm password"
+            />
+            <p id="cr" class="r"></p>
+          </div>
+            <button type="reset" id="reset">reset</button>
+        </form>
+        <button type="submit" id="reg">Register</button>
+        <div class="con">
+            <p>
+                If you are already registered, click here to
+                <a href="./Login Form/index.html">Login</a>
+              </p>
+          </div>
+      </div>
+    </div>
+    <script src="ap.js"></script>
+  </body>
+</html>
